@@ -9,7 +9,6 @@
         <script src="https://cdn.tailwindcss.com/3.4.1"></script>
     </head>
     <body>
-               {{--ナビゲーションバー　--}}
         {{-- エラーメッセージ --}}
         @include('commons.error_messages')
         {{-- 継承先@section('content') --}}

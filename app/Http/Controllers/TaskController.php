@@ -72,6 +72,8 @@ class TaskController extends Controller
         return view('tasks.edit',[
             'task'=>$task,
             ]);
+            $task->save();
+             return redirect('/');
     }
 
     /**
